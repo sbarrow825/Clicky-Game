@@ -77,3 +77,5 @@ class ClickyGame extends React.Component {
         )
     }
 }
+
+export default ClickyGame
