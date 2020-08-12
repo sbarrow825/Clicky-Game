@@ -2,73 +2,61 @@
     {
         "id": 1,
         "url": "./Images/Alchemist.png",
-        "alt": "Alchemist",
         "alreadyGuessed": false
     },
     {
         "id": 2,
         "url": "./Images/Axe.png",
-        "alt": "Axe",
         "alreadyGuessed": false
     },
     {
         "id": 3,
         "src": "./Images/Dazzle.png",
-        "alt": "Dazzle",
         "alreadyGuessed": false
     },
     {
         "id": 4,
-        "src": "./Images/Dragon_Knight.png",
-        "alt": "Dragon Knight",
+        "src": "../../../public/Images/Dragon_Knight.png",
         "alreadyGuessed": false
     },
     {
         "id": 5,
-        "src": "./Images/Ember_Spirit.png",
-        "alt": "Ember Spirit",
+        "src": "../../../public/Images/Ember_Spirit.png",
         "alreadyGuessed": false
     },
     {
         "id": 6,
-        "src": "./Images/Invoker.png",
-        "alt": "Invoker",
+        "src": "../../../public/Images/Invoker.png",
         "alreadyGuessed": false
     },
     {
         "id": 7,
-        "src": "./Images/Lich.png",
-        "alt": "Lich",
+        "src": "../../../public/Images/Lich.png",
         "alreadyGuessed": false
     },
     {
         "id": 8,
-        "src": "./Images/Lycan.png",
-        "alt": "Lycan",
+        "src": "../../../public/Images/Lycan.png",
         "alreadyGuessed": false
     },
     {
         "id": 9,
-        "src": "./Images/Necro.png",
-        "alt": "Necro",
+        "src": "../../../public/Images/Necro.png",
         "alreadyGuessed": false
     },
     {
         "id": 10,
-        "src": "./Images/Pudge.png",
-        "alt": "Pudge",
+        "src": "../../../public/Images/Pudge.png",
         "alreadyGuessed": false
     },
     {
         "id": 11,
-        "src": "./Images/Pugna.png",
-        "alt": "Pugna",
+        "src": "../../../public/Images/Pugna.png",
         "alreadyGuessed": false
     },
     {
         "id": 12,
-        "src": "./Images/Sven.png",
-        "alt": "Sven",
+        "src": "../../../public/Images/Sven.png",
         "alreadyGuessed": false
     }
 ]

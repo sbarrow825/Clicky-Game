@@ -54,7 +54,7 @@ class ClickyGame extends React.Component {
     shuffle() {
         var shuffledImagesArr = [];
         var imagesCopyArr = this.state.images;
-        for (const i = 0; i < 12; i += 1) {
+        for (var i = 0; i < 12; i += 1) {
             var randomIndex = Math.floor(imagesCopyArr.length * Math.random());
             shuffledImagesArr.push(imagesCopyArr[randomIndex]);
             imagesCopyArr.splice(randomIndex, 1);
