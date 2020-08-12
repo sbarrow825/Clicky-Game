@@ -5,7 +5,7 @@ function Image(props) {
         <div className="col m4">
             <div className="card" id={props.id}>
                 <div className="card-image">
-                    <img onClick={props.onClick} url={props.url}/>
+                    <img onClick={props.onClick} src={require(`${props.url}`)} alt="placeholder"/>
                 </div>
             </div>
         </div>

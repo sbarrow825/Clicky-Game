@@ -2,12 +2,12 @@ import React from 'react'
 
 function Navbar(props) {
     return (
-        <nav className="navbar navbar-inverse">
+        <nav className="navbar bg-primary">
             <div className="container-fluid">
                 <div className="navbar-header">
-                    <a class="navbar-brand">Clicky Game</a>
+                    <h1 className="nav navbar-nav navbar-left" >Dota 2 Memory Game</h1>
                 </div>
-                <h1 class="nav navbar-nav navbar-right">
+                <h1 className="nav navbar-nav navbar-right">
                    Score: {props.score}
                 </h1>
             </div>

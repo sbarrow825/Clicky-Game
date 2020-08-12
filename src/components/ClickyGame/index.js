@@ -69,7 +69,7 @@ class ClickyGame extends React.Component {
                 <div className="container">
                     <div className="row">
                         {this.state.images.map(image =>
-                            <Image onClick={() => this.handleGuess(image.id)} url={this.url} id={this.id} />
+                            <Image onClick={() => this.handleGuess(image.id)} url={image.url} key={image.id} />
                         )}
                     </div>
                 </div>
