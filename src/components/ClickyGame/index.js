@@ -1,5 +1,5 @@
 import React from 'react'
-import Grid from "../Grid"
+import Image from "../Image"
 import Navbar from "../Navbar"
 import images from "./images.json"
 
@@ -29,10 +29,10 @@ class ClickyGame extends React.Component {
         for (image of this.state.images) {
             if (image.id === id) {
                 image.alreadyGuessed = true;
-                this.setState({images: this.state.images})
+                this.setState({ images: this.state.images })
                 var score = this.state.score;
                 score = score + 1;
-                this.setState({score: score});
+                this.setState({ score: score });
                 if (score === 12) {
                     this.handleWin();
                 } else {
@@ -43,7 +43,7 @@ class ClickyGame extends React.Component {
     }
 
     reset() {
-        this.setState({score: 0});
+        this.setState({ score: 0 });
         for (image of this.state.images) {
             image.alreadyGuessed = false;
         }
@@ -59,12 +59,21 @@ class ClickyGame extends React.Component {
             shuffledImagesArr.push(imagesCopyArr[randomIndex]);
             imagesCopyArr.splice(randomIndex, 1);
         }
-        this.setState({images: shuffledImagesArr});
+        this.setState({ images: shuffledImagesArr });
     }
 
     render() {
         return (
-            <Navbar score={this.state.score}/>
+            <div>
+                <Navbar score={this.state.score} />
+                <div className="container">
+                    <div className="row">
+                        {this.state.images.map(image =>
+                            <Image onClick={() => this.handleGuess(image.id)} url={this.url} id={this.id} />
+                        )}
+                    </div>
+                </div>
+            </div>
         )
     }
 }
