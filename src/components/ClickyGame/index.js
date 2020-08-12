@@ -14,7 +14,7 @@ class ClickyGame extends React.Component {
     }
 
     handleGuess(id) {
-        for (image of this.state.images) {
+        for (const image of this.state.images) {
             if (image.id === id) {
                 if (!image.alreadyGuessed) {
                     this.handleCorrectGuess(id)
@@ -26,7 +26,7 @@ class ClickyGame extends React.Component {
     }
 
     handleCorrectGuess(id) {
-        for (image of this.state.images) {
+        for (const image of this.state.images) {
             if (image.id === id) {
                 image.alreadyGuessed = true;
                 this.setState({ images: this.state.images })
@@ -44,7 +44,7 @@ class ClickyGame extends React.Component {
 
     reset() {
         this.setState({ score: 0 });
-        for (image of this.state.images) {
+        for (const image of this.state.images) {
             image.alreadyGuessed = false;
         }
         this.setState({ images: this.state.images })
@@ -54,7 +54,7 @@ class ClickyGame extends React.Component {
     shuffle() {
         var shuffledImagesArr = [];
         var imagesCopyArr = this.state.images;
-        for (i = 0; i < 12; i += 1) {
+        for (const i = 0; i < 12; i += 1) {
             var randomIndex = Math.floor(imagesCopyArr.length * Math.random());
             shuffledImagesArr.push(imagesCopyArr[randomIndex]);
             imagesCopyArr.splice(randomIndex, 1);
