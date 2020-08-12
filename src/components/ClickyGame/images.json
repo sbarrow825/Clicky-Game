@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "url": "./Images/Alchemist.png",
+        "alt": "Alchemist",
+        "alreadyGuessed": false
+    },
+    {
+        "id": 2,
+        "url": "./Images/Axe.png",
+        "alt": "Axe",
+        "alreadyGuessed": false
+    },
+    {
+        "id": 3,
+        "src": "./Images/Dazzle.png",
+        "alt": "Dazzle",
+        "alreadyGuessed": false
+    },
+    {
+        "id": 4,
+        "src": "./Images/Dragon_Knight.png",
+        "alt": "Dragon Knight",
+        "alreadyGuessed": false
+    },
+    {
+        "id": 5,
+        "src": "./Images/Ember_Spirit.png",
+        "alt": "Ember Spirit",
+        "alreadyGuessed": false
+    },
+    {
+        "id": 6,
+        "src": "./Images/Invoker.png",
+        "alt": "Invoker",
+        "alreadyGuessed": false
+    },
+    {
+        "id": 7,
+        "src": "./Images/Lich.png",
+        "alt": "Lich",
+        "alreadyGuessed": false
+    },
+    {
+        "id": 8,
+        "src": "./Images/Lycan.png",
+        "alt": "Lycan",
+        "alreadyGuessed": false
+    },
+    {
+        "id": 9,
+        "src": "./Images/Necro.png",
+        "alt": "Necro",
+        "alreadyGuessed": false
+    },
+    {
+        "id": 10,
+        "src": "./Images/Pudge.png",
+        "alt": "Pudge",
+        "alreadyGuessed": false
+    },
+    {
+        "id": 11,
+        "src": "./Images/Pugna.png",
+        "alt": "Pugna",
+        "alreadyGuessed": false
+    },
+    {
+        "id": 12,
+        "src": "./Images/Sven.png",
+        "alt": "Sven",
+        "alreadyGuessed": false
+    }
+]
