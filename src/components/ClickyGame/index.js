@@ -1,12 +1,14 @@
 import React from 'react'
 import Image from "../Image"
 import Navbar from "../Navbar"
+import Description from "../Description"
 import images from "./images.json"
 
 class ClickyGame extends React.Component {
     state = {
         score: 0,
-        images: images
+        images: images,
+        message: "Click any hero image to begin the game"
     }
 
     componentDidMount() {
@@ -19,13 +21,19 @@ class ClickyGame extends React.Component {
                 if (!image.alreadyGuessed) {
                     this.handleCorrectGuess(id)
                 } else {
-                    this.reset()
+                    this.handleIncorrectGuess();
                 }
             }
         }
     }
 
+    handleIncorrectGuess() {
+        this.setState({ message: "Oh no! You guessed incorrectly, your score has been reset to 0"});
+        this.reset();
+    }
+
     handleCorrectGuess(id) {
+        this.setState({ message: "Correct!"});
         for (const image of this.state.images) {
             if (image.id === id) {
                 image.alreadyGuessed = true;
@@ -62,10 +70,15 @@ class ClickyGame extends React.Component {
         this.setState({ images: shuffledImagesArr });
     }
 
+    handleWin() {
+        this.setState({ message: "Congratulations! You won! Refresh the page to play again."});
+    }
+
     render() {
         return (
             <div>
-                <Navbar score={this.state.score} />
+                <Navbar score={this.state.score}/>
+                <Description message={this.state.message}/>
                 <div className="container">
                     <div className="row">
                         {this.state.images.map(image =>
