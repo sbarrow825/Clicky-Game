@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,IACI,WAAY,CACZ,YACJ,CAEA,KACI,kBACJ,CAEA,MACI,eACJ,CAXA,MACI,iBAAkB,CAClB,eAAgB,CAChB,iBACJ","file":"main.45b08d8a.chunk.css","sourcesContent":[".lead {\r\n    text-align: center;\r\n    font-weight: 500;\r\n    font-size: x-large;\r\n}"]}

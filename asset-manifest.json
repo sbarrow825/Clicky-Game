@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Clicky-Game/static/css/main.45b08d8a.chunk.css",
+    "main.js": "/Clicky-Game/static/js/main.e8e97325.chunk.js",
+    "main.js.map": "/Clicky-Game/static/js/main.e8e97325.chunk.js.map",
+    "runtime-main.js": "/Clicky-Game/static/js/runtime-main.a0ce3ec2.js",
+    "runtime-main.js.map": "/Clicky-Game/static/js/runtime-main.a0ce3ec2.js.map",
+    "static/js/2.3030a08f.chunk.js": "/Clicky-Game/static/js/2.3030a08f.chunk.js",
+    "static/js/2.3030a08f.chunk.js.map": "/Clicky-Game/static/js/2.3030a08f.chunk.js.map",
+    "index.html": "/Clicky-Game/index.html",
+    "precache-manifest.77dc8f41df2cceb836814c1129a9f902.js": "/Clicky-Game/precache-manifest.77dc8f41df2cceb836814c1129a9f902.js",
+    "service-worker.js": "/Clicky-Game/service-worker.js",
+    "static/css/main.45b08d8a.chunk.css.map": "/Clicky-Game/static/css/main.45b08d8a.chunk.css.map",
+    "static/js/2.3030a08f.chunk.js.LICENSE.txt": "/Clicky-Game/static/js/2.3030a08f.chunk.js.LICENSE.txt",
+    "static/media/Alchemist.png": "/Clicky-Game/static/media/Alchemist.dc51a2b3.png",
+    "static/media/Axe.png": "/Clicky-Game/static/media/Axe.07347827.png",
+    "static/media/Dazzle.png": "/Clicky-Game/static/media/Dazzle.98138694.png",
+    "static/media/Dragon_Knight.jpeg": "/Clicky-Game/static/media/Dragon_Knight.ab803806.jpeg",
+    "static/media/Ember_Spirit.png": "/Clicky-Game/static/media/Ember_Spirit.f1afdc0e.png",
+    "static/media/Invoker.png": "/Clicky-Game/static/media/Invoker.2bc3299d.png",
+    "static/media/Lich.png": "/Clicky-Game/static/media/Lich.81b165ca.png",
+    "static/media/Lycan.png": "/Clicky-Game/static/media/Lycan.2b3c7699.png",
+    "static/media/Necro.png": "/Clicky-Game/static/media/Necro.6efe3b8d.png",
+    "static/media/Puck.png": "/Clicky-Game/static/media/Puck.466f55f4.png",
+    "static/media/Pudge.png": "/Clicky-Game/static/media/Pudge.cc48327d.png",
+    "static/media/Pugna.png": "/Clicky-Game/static/media/Pugna.8455cf48.png",
+    "static/media/Sven.png": "/Clicky-Game/static/media/Sven.af917d4d.png",
+    "static/media/Windrunner.png": "/Clicky-Game/static/media/Windrunner.ef21b4f7.png",
+    "static/media/Witch_Doctor.png": "/Clicky-Game/static/media/Witch_Doctor.4d2a0944.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0ce3ec2.js",
+    "static/js/2.3030a08f.chunk.js",
+    "static/css/main.45b08d8a.chunk.css",
+    "static/js/main.e8e97325.chunk.js"
+  ]
+}
